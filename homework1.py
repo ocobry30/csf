@@ -18,12 +18,12 @@ import math                     # makes the math.sqrt function available
 
 print "Problem 1 solution follows:"
 
-a = 1
-b = -5.86
-c = 8.5408
+a1 = 1
+b1 = -5.86
+c1 = 8.5408
 
-x1 = (-b + math.sqrt(b**2 - 4 * a * c)) / (2 * a)  
-x2 = (-b - math.sqrt(b**2 - 4 * a * c)) / (2 * a)
+x1 = (-b1 + math.sqrt(b1**2 - 4 * a1 * c1)) / (2 * a1)  
+x2 = (-b1 - math.sqrt(b1**2 - 4 * a1 * c1)) / (2 * a1)
 
 print "x =", x1,",", x2 
 
@@ -33,7 +33,9 @@ print "x =", x1,",", x2
 
 print "Problem 2 solution follows:"
 
-import hw1_test
+from hw1_test import a, b, c, d, e, f
+
+print a,"\n", b,"\n", c,"\n", d,"\n", e, "\n", f
 
 
 ###
@@ -42,11 +44,18 @@ import hw1_test
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
+ans3 = ((a and b) or (not c) and not (d or e or f))
+print ans3
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+# Bryan O'Connor, Gabriel Cangas
+
+###
+### Problem 4
+###
+
+print "Problem 4 solution follows:"
+
